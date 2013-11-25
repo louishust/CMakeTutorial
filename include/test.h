@@ -3,4 +3,6 @@
 
 void test();
 
+int factorial(int n);
+
 #endif

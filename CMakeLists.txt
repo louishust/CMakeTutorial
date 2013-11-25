@@ -18,7 +18,9 @@ configure_file (
 include_directories(${PROJECT_BINARY_DIR}/include)
 include_directories(include)
 
+enable_testing()
+
 # add subdirectory
 add_subdirectory(src)
-
+add_subdirectory(unit_test)
 

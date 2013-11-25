@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include "TutorialConfig.h"
+#include "test.h"
 
 int main (int argc, char *argv[])
 {
@@ -18,6 +19,8 @@ int main (int argc, char *argv[])
   double outputValue = sqrt(inputValue);
   fprintf(stdout,"The square root of %g is %g\n",
       inputValue, outputValue);
+
+  test();
   return 0;
 }
 

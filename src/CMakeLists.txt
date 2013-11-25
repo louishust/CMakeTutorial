@@ -7,3 +7,6 @@ ADD_LIBRARY(test SHARED test.cxx)
 ADD_EXECUTABLE(Tutorial Tutorial.cxx)
 target_link_libraries(Tutorial test)
 
+# add the install targets
+install (TARGETS test DESTINATION lib)
+install (TARGETS Tutorial DESTINATION bin)
